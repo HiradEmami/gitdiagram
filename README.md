@@ -67,3 +67,12 @@ Built with Next.js, React, TypeScript, Tailwind CSS, and Mermaid. Videos use Cla
 Contributions are welcome. Open an issue or pull request with a focused description and [verification notes](docs/dev-setup.md#verify).
 
 Inspired by [Romain Courtois](https://github.com/cyclotruc)'s [Gitingest](https://gitingest.com/).
+
+## Pelagion source baseline
+
+[`.pelagion-src-version`](.pelagion-src-version) records the initial source baseline for
+`feat/init-pelagion-takeover`. It identifies the original upstream and the Pelagion
+fork by repository name and ID. It records their main/master branch commit hashes,
+commit timestamps, tags and declared versions where available. The fork commit is
+the exact base of the initial feature branch. This is a fixed provenance record;
+it does not update automatically when branches advance. Git history preserves it.
